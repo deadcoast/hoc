@@ -1,0 +1,13 @@
+{
+  // Limit lint scope to the spec directory per repo hygiene guidance
+  "globs": [
+    "0.0.4/**/*.md"
+  ],
+  // Ignore in-flight drafts/notes; keep lint stable for normative files
+  "ignores": [
+    "0.0.4/Tasks-TODO/**"
+  ],
+  // Reuse rule settings from the existing markdownlint config
+  "config": ".markdownlint.json"
+}
+

@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2025-10-24T20:22:26Z",
+  "repo": {
+    "host": "GitHub",
+    "owner": "deadcoast",
+    "name": "chekk",
+    "full_name": "deadcoast/chekk",
+    "url": "https://github.com/deadcoast/chekk",
+    "default_branch": "main"
+  },
+  "purpose": "CLI utility to check/report local language/runtime/tool versions (\"chekk\").",
+  "files_detected": [
+    "README.md",
+    "chekk.py",
+    "pyproject.toml",
+    "requirements.txt",
+    "install_chekk.ps1"
+  ],
+  "entry_points": {
+    "windows_installer_script": "install_chekk.ps1",
+    "python_cli": "chekk.py (assumed main entry point)"
+  },
+  "notes": "This index was built from repository metadata (file list) available via the connector.\nIf you want me to keep this index 'in memory' across chats, re-upload this JSON\nor paste the block, and I can update it as the repo evolves.",
+  "tags": [
+    "cli",
+    "python",
+    "windows",
+    "version-checker",
+    "deadcoast",
+    "chekk"
+  ]
+}
